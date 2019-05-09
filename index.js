@@ -1,3 +1,4 @@
 
 import StdVector from "./lib/std_vector";
-export { StdVector };
+import StdString from "./lib/std_string";
+export { StdVector, StdString };
