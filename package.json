@@ -33,6 +33,10 @@
 		]
 	},
 	"license": "GPL-3.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thestr4ng3r/frida-cpp"
+	},
 	"dependencies": {
 		"@babel/core": "^7.1.2",
 		"@babel/plugin-transform-runtime": "^7.1.0",
