@@ -1,0 +1,43 @@
+{
+	"name": "frida-cpp",
+	"version": "1.0.0",
+	"description": "Tools for inspecting C++ code and STL objects with Frida",
+	"main": "index.js",
+	"files": [
+		"/index.js",
+		"/lib/**/*.js"
+	],
+	"browserify": {
+		"transform": [
+			[
+				"babelify",
+				{
+					"presets": [
+						[
+							"@babel/preset-env",
+							{
+								"loose": true
+							}
+						]
+					],
+					"plugins": [
+						[
+							"@babel/plugin-transform-runtime",
+							{
+								"corejs": 2
+							}
+						]
+					]
+				}
+			]
+		]
+	},
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"@babel/core": "^7.1.2",
+		"@babel/plugin-transform-runtime": "^7.1.0",
+		"@babel/preset-env": "^7.1.0",
+		"@babel/runtime-corejs2": "^7.1.2",
+		"babelify": "^10.0.0"
+	}
+}
