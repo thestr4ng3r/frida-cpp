@@ -1,6 +1,6 @@
 {
 	"name": "frida-cpp",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Tools for inspecting C++ code and STL objects with Frida",
 	"main": "index.js",
 	"files": [
